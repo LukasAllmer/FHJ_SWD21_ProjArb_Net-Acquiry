@@ -1,0 +1,76 @@
+{
+  "requestId": 59420,
+  "personalData": {
+    "firstName": "Barrera",
+    "lastName": "Finch",
+    "company": "Comtext GmbH"
+  },
+  "requesterData": {
+    "firstName": "Alvarez",
+    "lastName": "Brooks",
+    "company": "Joviold GmbH"
+  },
+  "requestContent": [
+    {
+      "fieldId": 0,
+      "fieldDescription": "Lorem do ut?",
+      "fieldType": "datetime-local",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": []
+    },
+    {
+      "fieldId": 1,
+      "fieldDescription": "fugiat ut culpa?",
+      "fieldType": "file",
+      "fieldParams": {
+        "required": true
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "amet in sunt?",
+          "fieldType": "time",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": [
+            {
+              "fieldId": 0,
+              "fieldDescription": "mollit proident elit?",
+              "fieldType": "file"
+            },
+            {
+              "fieldId": 1,
+              "fieldDescription": "reprehenderit incididunt anim?",
+              "fieldType": "text"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fieldId": 2,
+      "fieldDescription": "consequat duis dolore?",
+      "fieldType": "select",
+      "fieldValues": [
+        "in",
+        "non",
+        "consectetur",
+        "fugiat"
+      ]
+    },
+    {
+      "fieldId": 3,
+      "fieldDescription": "minim eu officia?",
+      "fieldType": "radio",
+      "fieldValues": [
+        "occaecat",
+        "mollit",
+        "sunt",
+        "consequat"
+      ]
+    }
+  ]
+}

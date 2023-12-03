@@ -1,0 +1,63 @@
+#root
+  .dynamicForm
+    display: flex
+    flex-direction: column
+    flex-wrap: wrap
+    align-content: stretch
+    justify-content: flex-start
+    align-items: stretch
+    border-left: darkgrey solid 1px
+    padding: 0 0 0 0.5em
+    .formTitle
+      margin: 0
+    .formDescription
+      margin: 0
+      color: red
+    .formSubmitButton
+      margin: 0.5em 0 0 0 
+
+    .formField 
+      border-top: rgba(0, 0, 0, 0) solid 1px
+      transition: all 0.5s
+      border-left: darkgrey solid 1px
+      margin: 0.5em 0 0
+      padding: 0 0 0 0.5em
+
+      display: flex
+      text-align: left
+      flex-direction: column
+      flex-wrap: wrap
+      align-content: stretch
+      justify-content: center
+      align-items: stretch
+
+      label
+        margin-right: 0.5em
+        align-content: left
+      
+      input
+        color: lightgrey
+        margin: 0.5em 0 0
+      
+      fieldset
+        border: 0
+        margin: 0
+        padding: 0
+        width: auto
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        align-content: flex-start
+        justify-content: flex-start
+        align-items: center
+        label
+          width: auto
+          display: flex
+          justify-content: center
+          align-items: center
+          input
+            width: auto
+            margin: 0 0.25em 0 0
+
+    .formField:hover
+      border-top: darkgrey solid 1px

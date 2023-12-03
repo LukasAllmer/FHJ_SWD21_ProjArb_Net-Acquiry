@@ -1,0 +1,73 @@
+{
+  "requestId": 76753,
+  "personalData": {
+    "firstName": "Watson",
+    "lastName": "Ashley",
+    "company": "Earbang GmbH"
+  },
+  "requesterData": {
+    "firstName": "Ashlee",
+    "lastName": "Stewart",
+    "company": "Mangelica GmbH"
+  },
+  "requestContent": [
+    {
+      "fieldId": 0,
+      "fieldDescription": "commodo nisi tempor?",
+      "fieldType": "date",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": []
+    },
+    {
+      "fieldId": 1,
+      "fieldDescription": "id tempor pariatur?",
+      "fieldType": "tel",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "deserunt eiusmod exercitation?",
+          "fieldType": "color",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": [
+            {
+              "fieldId": 0,
+              "fieldDescription": "adipisicing adipisicing labore?",
+              "fieldType": "email"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fieldId": 2,
+      "fieldDescription": "esse sit velit?",
+      "fieldType": "select",
+      "fieldValues": [
+        "commodo",
+        "aliqua",
+        "amet",
+        "non",
+        "duis"
+      ]
+    },
+    {
+      "fieldId": 3,
+      "fieldDescription": "duis exercitation exercitation?",
+      "fieldType": "select",
+      "fieldValues": [
+        "veniam",
+        "esse",
+        "non",
+        "adipisicing",
+        "elit"
+      ]
+    }
+  ]
+}

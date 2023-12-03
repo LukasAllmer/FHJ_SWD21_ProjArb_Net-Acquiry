@@ -1,0 +1,75 @@
+{
+  "requestId": 65809,
+  "personalData": {
+    "firstName": "Hines",
+    "lastName": "Cooley",
+    "company": "Lotron GmbH"
+  },
+  "requesterData": {
+    "firstName": "Richard",
+    "lastName": "Mosley",
+    "company": "Comdom GmbH"
+  },
+  "requestContent": [
+    {
+      "fieldId": 0,
+      "fieldDescription": "eu irure amet?",
+      "fieldType": "time",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": []
+    },
+    {
+      "fieldId": 1,
+      "fieldDescription": "aliqua esse dolore?",
+      "fieldType": "datetime-local",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "voluptate aute nisi?",
+          "fieldType": "datetime-local",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": []
+        },
+        {
+          "fieldId": 1,
+          "fieldDescription": "qui ea mollit?",
+          "fieldType": "number",
+          "fieldParams": {
+            "required": true
+          },
+          "fieldSubItems": []
+        }
+      ]
+    },
+    {
+      "fieldId": 2,
+      "fieldDescription": "Lorem non Lorem?",
+      "fieldType": "radio",
+      "fieldValues": [
+        "excepteur",
+        "anim",
+        "deserunt",
+        "nulla"
+      ]
+    },
+    {
+      "fieldId": 3,
+      "fieldDescription": "non laborum laboris?",
+      "fieldType": "select",
+      "fieldValues": [
+        "quis",
+        "consequat",
+        "exercitation",
+        "occaecat",
+        "voluptate"
+      ]
+    }
+  ]
+}

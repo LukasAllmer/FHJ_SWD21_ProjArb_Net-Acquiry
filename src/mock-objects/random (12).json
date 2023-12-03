@@ -1,0 +1,95 @@
+{
+  "requestId": 36090,
+  "personalData": {
+    "firstName": "Edwards",
+    "lastName": "Franklin",
+    "company": "Dogtown GmbH"
+  },
+  "requesterData": {
+    "firstName": "Mccray",
+    "lastName": "Mckenzie",
+    "company": "Turnling GmbH"
+  },
+  "requestContent": [
+    {
+      "fieldId": 0,
+      "fieldDescription": "ea Lorem adipisicing?",
+      "fieldType": "month",
+      "fieldParams": {
+        "required": true
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "eu do deserunt?",
+          "fieldType": "month",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": [
+            {
+              "fieldId": 0,
+              "fieldDescription": "aute Lorem commodo?",
+              "fieldType": "date"
+            },
+            {
+              "fieldId": 1,
+              "fieldDescription": "excepteur eiusmod cillum?",
+              "fieldType": "file"
+            }
+          ]
+        },
+        {
+          "fieldId": 1,
+          "fieldDescription": "minim sint consequat?",
+          "fieldType": "time",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": []
+        }
+      ]
+    },
+    {
+      "fieldId": 1,
+      "fieldDescription": "veniam aliqua qui?",
+      "fieldType": "password",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "duis et anim?",
+          "fieldType": "url",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": []
+        }
+      ]
+    },
+    {
+      "fieldId": 2,
+      "fieldDescription": "dolor reprehenderit duis?",
+      "fieldType": "radio",
+      "fieldValues": [
+        "enim",
+        "in",
+        "ullamco",
+        "do",
+        "Lorem"
+      ]
+    },
+    {
+      "fieldId": 3,
+      "fieldDescription": "magna sunt sint?",
+      "fieldType": "radio",
+      "fieldValues": [
+        "culpa",
+        "mollit",
+        "quis"
+      ]
+    }
+  ]
+}

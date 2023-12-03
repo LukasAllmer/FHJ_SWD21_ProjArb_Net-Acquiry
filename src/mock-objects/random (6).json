@@ -1,0 +1,77 @@
+{
+  "requestId": 68262,
+  "personalData": {
+    "firstName": "Rice",
+    "lastName": "Riggs",
+    "company": "Atgen GmbH"
+  },
+  "requesterData": {
+    "firstName": "Jeanne",
+    "lastName": "Ray",
+    "company": "Datagen GmbH"
+  },
+  "requestContent": [
+    {
+      "fieldId": 0,
+      "fieldDescription": "aliquip commodo ullamco?",
+      "fieldType": "date",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": []
+    },
+    {
+      "fieldId": 1,
+      "fieldDescription": "velit commodo ullamco?",
+      "fieldType": "email",
+      "fieldParams": {
+        "required": true
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "amet dolore velit?",
+          "fieldType": "tel",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": []
+        },
+        {
+          "fieldId": 1,
+          "fieldDescription": "enim aliquip sit?",
+          "fieldType": "password",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": [
+            {
+              "fieldId": 0,
+              "fieldDescription": "cupidatat voluptate nulla?",
+              "fieldType": "password"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fieldId": 2,
+      "fieldDescription": "anim commodo deserunt?",
+      "fieldType": "radio",
+      "fieldValues": [
+        "et",
+        "pariatur",
+        "consequat"
+      ]
+    },
+    {
+      "fieldId": 3,
+      "fieldDescription": "veniam pariatur magna?",
+      "fieldType": "select",
+      "fieldValues": [
+        "laborum",
+        "pariatur"
+      ]
+    }
+  ]
+}

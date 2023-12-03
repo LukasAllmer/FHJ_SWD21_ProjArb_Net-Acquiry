@@ -1,0 +1,83 @@
+{
+  "requestId": 35676,
+  "personalData": {
+    "firstName": "Ray",
+    "lastName": "Mendoza",
+    "company": "Lunchpad GmbH"
+  },
+  "requesterData": {
+    "firstName": "Bailey",
+    "lastName": "Price",
+    "company": "Lumbrex GmbH"
+  },
+  "requestContent": [
+    {
+      "fieldId": 0,
+      "fieldDescription": "cupidatat occaecat duis?",
+      "fieldType": "email",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": []
+    },
+    {
+      "fieldId": 1,
+      "fieldDescription": "est quis mollit?",
+      "fieldType": "email",
+      "fieldParams": {
+        "required": true
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "magna dolore tempor?",
+          "fieldType": "color",
+          "fieldParams": {
+            "required": true
+          },
+          "fieldSubItems": [
+            {
+              "fieldId": 0,
+              "fieldDescription": "est dolor exercitation?",
+              "fieldType": "date"
+            },
+            {
+              "fieldId": 1,
+              "fieldDescription": "sunt incididunt occaecat?",
+              "fieldType": "date"
+            }
+          ]
+        },
+        {
+          "fieldId": 1,
+          "fieldDescription": "in commodo eu?",
+          "fieldType": "datetime-local",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": []
+        }
+      ]
+    },
+    {
+      "fieldId": 2,
+      "fieldDescription": "id aute aute?",
+      "fieldType": "radio",
+      "fieldValues": [
+        "fugiat",
+        "commodo"
+      ]
+    },
+    {
+      "fieldId": 3,
+      "fieldDescription": "aliquip ullamco enim?",
+      "fieldType": "radio",
+      "fieldValues": [
+        "anim",
+        "incididunt",
+        "elit",
+        "magna"
+      ]
+    }
+  ]
+}

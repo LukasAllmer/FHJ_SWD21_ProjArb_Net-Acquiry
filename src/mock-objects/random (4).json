@@ -1,0 +1,75 @@
+{
+  "requestId": 82004,
+  "personalData": {
+    "firstName": "Cecile",
+    "lastName": "Decker",
+    "company": "Chillium GmbH"
+  },
+  "requesterData": {
+    "firstName": "Dona",
+    "lastName": "Hardin",
+    "company": "Zenco GmbH"
+  },
+  "requestContent": [
+    {
+      "fieldId": 0,
+      "fieldDescription": "quis officia minim?",
+      "fieldType": "time",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": []
+    },
+    {
+      "fieldId": 1,
+      "fieldDescription": "eiusmod occaecat excepteur?",
+      "fieldType": "month",
+      "fieldParams": {
+        "required": true
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "ea esse culpa?",
+          "fieldType": "email",
+          "fieldParams": {
+            "required": true
+          },
+          "fieldSubItems": [
+            {
+              "fieldId": 0,
+              "fieldDescription": "voluptate do minim?",
+              "fieldType": "date"
+            },
+            {
+              "fieldId": 1,
+              "fieldDescription": "nostrud anim id?",
+              "fieldType": "datetime-local"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fieldId": 2,
+      "fieldDescription": "ut officia tempor?",
+      "fieldType": "radio",
+      "fieldValues": [
+        "Lorem",
+        "ea"
+      ]
+    },
+    {
+      "fieldId": 3,
+      "fieldDescription": "sit eiusmod occaecat?",
+      "fieldType": "select",
+      "fieldValues": [
+        "duis",
+        "laborum",
+        "minim",
+        "pariatur",
+        "tempor"
+      ]
+    }
+  ]
+}

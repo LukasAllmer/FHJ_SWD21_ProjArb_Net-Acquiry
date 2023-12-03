@@ -1,0 +1,121 @@
+{
+  "requestId": 55228,
+  "personalData": {
+    "firstName": "Garrison",
+    "lastName": "Wynn",
+    "company": "Essensia GmbH"
+  },
+  "requesterData": {
+    "firstName": "Barron",
+    "lastName": "Schneider",
+    "company": "Exoplode GmbH"
+  },
+  "requestContent": [
+    {
+      "fieldId": 0,
+      "fieldDescription": "anim ea do?",
+      "fieldType": "url",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "ullamco nisi minim?",
+          "fieldType": "tel",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": [
+            {
+              "fieldId": 0,
+              "fieldDescription": "enim exercitation quis?",
+              "fieldType": "number"
+            },
+            {
+              "fieldId": 1,
+              "fieldDescription": "cupidatat quis dolor?",
+              "fieldType": "email"
+            }
+          ]
+        },
+        {
+          "fieldId": 1,
+          "fieldDescription": "esse ex ex?",
+          "fieldType": "time",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": [
+            {
+              "fieldId": 0,
+              "fieldDescription": "exercitation amet ad?",
+              "fieldType": "date"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fieldId": 1,
+      "fieldDescription": "deserunt voluptate nostrud?",
+      "fieldType": "week",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "nulla adipisicing sit?",
+          "fieldType": "date",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": [
+            {
+              "fieldId": 0,
+              "fieldDescription": "minim sit et?",
+              "fieldType": "week"
+            },
+            {
+              "fieldId": 1,
+              "fieldDescription": "et amet qui?",
+              "fieldType": "month"
+            }
+          ]
+        },
+        {
+          "fieldId": 1,
+          "fieldDescription": "consequat cupidatat velit?",
+          "fieldType": "month",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": []
+        }
+      ]
+    },
+    {
+      "fieldId": 2,
+      "fieldDescription": "laborum elit veniam?",
+      "fieldType": "checkbox",
+      "fieldValues": [
+        "magna",
+        "culpa",
+        "ex",
+        "tempor"
+      ]
+    },
+    {
+      "fieldId": 3,
+      "fieldDescription": "enim nulla ex?",
+      "fieldType": "checkbox",
+      "fieldValues": [
+        "Lorem",
+        "anim",
+        "aliquip",
+        "labore"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "requestId": 30524,
+  "personalData": {
+    "firstName": "Howe",
+    "lastName": "Collier",
+    "company": "Premiant GmbH"
+  },
+  "requesterData": {
+    "firstName": "Margery",
+    "lastName": "Jacobson",
+    "company": "Quizmo GmbH"
+  },
+  "requestContent": [
+    {
+      "fieldId": 0,
+      "fieldDescription": "ipsum reprehenderit est?",
+      "fieldType": "date",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": []
+    },
+    {
+      "fieldId": 1,
+      "fieldDescription": "adipisicing nulla anim?",
+      "fieldType": "datetime-local",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "culpa deserunt culpa?",
+          "fieldType": "url",
+          "fieldParams": {
+            "required": true
+          },
+          "fieldSubItems": [
+            {
+              "fieldId": 0,
+              "fieldDescription": "commodo do occaecat?",
+              "fieldType": "tel"
+            },
+            {
+              "fieldId": 1,
+              "fieldDescription": "id sunt enim?",
+              "fieldType": "month"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fieldId": 2,
+      "fieldDescription": "nulla labore amet?",
+      "fieldType": "select",
+      "fieldValues": [
+        "veniam",
+        "anim",
+        "aliquip",
+        "ea"
+      ]
+    },
+    {
+      "fieldId": 3,
+      "fieldDescription": "eiusmod commodo culpa?",
+      "fieldType": "select",
+      "fieldValues": [
+        "non",
+        "mollit"
+      ]
+    }
+  ]
+}

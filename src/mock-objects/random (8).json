@@ -1,0 +1,104 @@
+{
+  "requestId": 78573,
+  "personalData": {
+    "firstName": "Coffey",
+    "lastName": "Adams",
+    "company": "Zeam GmbH"
+  },
+  "requesterData": {
+    "firstName": "Curry",
+    "lastName": "Campos",
+    "company": "Endipine GmbH"
+  },
+  "requestContent": [
+    {
+      "fieldId": 0,
+      "fieldDescription": "ad veniam magna?",
+      "fieldType": "email",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "reprehenderit velit veniam?",
+          "fieldType": "file",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": [
+            {
+              "fieldId": 0,
+              "fieldDescription": "sit magna consequat?",
+              "fieldType": "password"
+            },
+            {
+              "fieldId": 1,
+              "fieldDescription": "ullamco sint magna?",
+              "fieldType": "file"
+            }
+          ]
+        },
+        {
+          "fieldId": 1,
+          "fieldDescription": "ex ullamco laboris?",
+          "fieldType": "week",
+          "fieldParams": {
+            "required": true
+          },
+          "fieldSubItems": [
+            {
+              "fieldId": 0,
+              "fieldDescription": "enim occaecat pariatur?",
+              "fieldType": "password"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fieldId": 1,
+      "fieldDescription": "consectetur non tempor?",
+      "fieldType": "text",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "do magna cupidatat?",
+          "fieldType": "date",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": [
+            {
+              "fieldId": 0,
+              "fieldDescription": "non occaecat minim?",
+              "fieldType": "password"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fieldId": 2,
+      "fieldDescription": "sit amet pariatur?",
+      "fieldType": "select",
+      "fieldValues": [
+        "excepteur",
+        "sit",
+        "elit"
+      ]
+    },
+    {
+      "fieldId": 3,
+      "fieldDescription": "magna commodo non?",
+      "fieldType": "checkbox",
+      "fieldValues": [
+        "laboris",
+        "pariatur"
+      ]
+    }
+  ]
+}

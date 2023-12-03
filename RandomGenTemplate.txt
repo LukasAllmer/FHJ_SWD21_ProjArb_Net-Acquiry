@@ -1,0 +1,94 @@
+{
+  "requestId": "{{integer(10000,90000)}}",
+    "personalData": {
+      "firstName": "{{firstName()}}",
+        "lastName": "{{surname()}}",
+          "company": '{{company() + " GmbH"}}'
+    },
+      "requesterData": {
+        "firstName": "{{firstName()}}",
+          "lastName": "{{surname()}}",
+            "company": '{{company() + " GmbH"}}'
+      },
+        "requestContent": [
+          {
+            "fieldId": "{{index()}}",
+            "fieldDescription": '{{lorem(3, "words") +"?"}}',
+            "fieldType": '{{random("text", "number", "date", "datetime-local", "email", "file", "month", "password", "tel", "time", "url", "week", "color")}}',
+            "fieldParams": {
+              "required": '{{random("true", "false", "false", "false", "false")}}'
+            },
+            "fieldSubItems": [
+              "{{repeat(0,2)}}",
+              {
+                "fieldId": "{{index()}}",
+                "fieldDescription": '{{lorem(3, "words")+"?"}}',
+                "fieldType": '{{random("text", "number", "date", "datetime-local", "email", "file", "month", "password", "tel", "time", "url", "week", "color")}}',
+                "fieldParams": {
+                  "required": '{{random("true", "false", "false", "false", "false")}}'
+                },
+                "fieldSubItems": [
+                  "{{repeat(0,2)}}",
+                  {
+                    "fieldId": "{{index()}}",
+                    "fieldDescription": '{{lorem(3, "words")+"?"}}',
+                    "fieldType": '{{random("text", "number", "date", "datetime-local", "email", "file", "month", "password", "tel", "time", "url", "week", "color")}}'
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "fieldId": "{{index()}}",
+            "fieldDescription": '{{lorem(3, "words") +"?"}}',
+            "fieldType": '{{random("text", "number", "date", "datetime-local", "email", "file", "month", "password", "tel", "time", "url", "week", "color")}}',
+            "fieldParams": {
+              "required": '{{random("true", "false", "false", "false", "false")}}'
+            },
+            "fieldSubItems": [
+              "{{repeat(0,2)}}",
+              {
+                "fieldId": "{{index()}}",
+                "fieldDescription": '{{lorem(3, "words")+"?"}}',
+                "fieldType": '{{random("text", "number", "date", "datetime-local", "email", "file", "month", "password", "tel", "time", "url", "week", "color")}}',
+                "fieldParams": {
+                  "required": '{{random("true", "false", "false", "false", "false")}}'
+                },
+                "fieldSubItems": [
+                  "{{repeat(0,2)}}",
+                  {
+                    "fieldId": "{{index()}}",
+                    "fieldDescription": '{{lorem(3, "words")+"?"}}',
+                    "fieldType": '{{random("text", "number", "date", "datetime-local", "email", "file", "month", "password", "tel", "time", "url", "week", "color")}}'
+                  }
+                ]
+              }
+            ]
+          },
+
+          {
+            "fieldId": "{{index()}}",
+            "fieldDescription": '{{lorem(3, "words") +"?"}}',
+            "fieldType": '{{random("radio", "checkbox", "select")}}',
+            "fieldValues": [
+              '{{repeat(2,5)}}',
+              '{{lorem(1, "words")}}'
+            ]
+
+
+
+          },
+                    {
+            "fieldId": "{{index()}}",
+            "fieldDescription": '{{lorem(3, "words") +"?"}}',
+            "fieldType": '{{random("radio", "checkbox", "select")}}',
+            "fieldValues": [
+              '{{repeat(2,5)}}',
+              '{{lorem(1, "words")}}'
+            ]
+
+
+
+          }
+        ]
+}

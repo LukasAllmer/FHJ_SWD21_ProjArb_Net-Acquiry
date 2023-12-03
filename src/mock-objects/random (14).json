@@ -1,0 +1,81 @@
+{
+  "requestId": 88011,
+  "personalData": {
+    "firstName": "Fran",
+    "lastName": "Bailey",
+    "company": "Skyplex GmbH"
+  },
+  "requesterData": {
+    "firstName": "Berta",
+    "lastName": "Camacho",
+    "company": "Geekwagon GmbH"
+  },
+  "requestContent": [
+    {
+      "fieldId": 0,
+      "fieldDescription": "occaecat exercitation tempor?",
+      "fieldType": "email",
+      "fieldParams": {
+        "required": true
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "officia officia et?",
+          "fieldType": "text",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": [
+            {
+              "fieldId": 0,
+              "fieldDescription": "eu amet officia?",
+              "fieldType": "color"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fieldId": 1,
+      "fieldDescription": "quis exercitation amet?",
+      "fieldType": "number",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "incididunt Lorem id?",
+          "fieldType": "date",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": []
+        }
+      ]
+    },
+    {
+      "fieldId": 2,
+      "fieldDescription": "quis amet eu?",
+      "fieldType": "select",
+      "fieldValues": [
+        "do",
+        "sint",
+        "sint",
+        "tempor",
+        "do"
+      ]
+    },
+    {
+      "fieldId": 3,
+      "fieldDescription": "deserunt adipisicing irure?",
+      "fieldType": "radio",
+      "fieldValues": [
+        "commodo",
+        "ad",
+        "pariatur"
+      ]
+    }
+  ]
+}

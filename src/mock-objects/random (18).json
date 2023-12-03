@@ -1,0 +1,96 @@
+{
+  "requestId": 39282,
+  "personalData": {
+    "firstName": "Carrillo",
+    "lastName": "Benton",
+    "company": "Enaut GmbH"
+  },
+  "requesterData": {
+    "firstName": "Claire",
+    "lastName": "Hanson",
+    "company": "Quilm GmbH"
+  },
+  "requestContent": [
+    {
+      "fieldId": 0,
+      "fieldDescription": "eu aliqua magna?",
+      "fieldType": "number",
+      "fieldParams": {
+        "required": false
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "aliqua mollit culpa?",
+          "fieldType": "url",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": [
+            {
+              "fieldId": 0,
+              "fieldDescription": "ad aliqua adipisicing?",
+              "fieldType": "week"
+            },
+            {
+              "fieldId": 1,
+              "fieldDescription": "non consequat cupidatat?",
+              "fieldType": "file"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fieldId": 1,
+      "fieldDescription": "ad aliqua tempor?",
+      "fieldType": "password",
+      "fieldParams": {
+        "required": true
+      },
+      "fieldSubItems": [
+        {
+          "fieldId": 0,
+          "fieldDescription": "enim aliqua nulla?",
+          "fieldType": "url",
+          "fieldParams": {
+            "required": true
+          },
+          "fieldSubItems": []
+        },
+        {
+          "fieldId": 1,
+          "fieldDescription": "aute enim excepteur?",
+          "fieldType": "date",
+          "fieldParams": {
+            "required": false
+          },
+          "fieldSubItems": []
+        }
+      ]
+    },
+    {
+      "fieldId": 2,
+      "fieldDescription": "ea amet duis?",
+      "fieldType": "radio",
+      "fieldValues": [
+        "laboris",
+        "ipsum",
+        "et",
+        "amet",
+        "cillum"
+      ]
+    },
+    {
+      "fieldId": 3,
+      "fieldDescription": "eu irure minim?",
+      "fieldType": "checkbox",
+      "fieldValues": [
+        "sint",
+        "est",
+        "officia",
+        "pariatur"
+      ]
+    }
+  ]
+}

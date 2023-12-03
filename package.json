@@ -1,0 +1,37 @@
+{
+	"name": "netacquiry",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+		"preview": "vite preview",
+		"generate-pwa-assets": "pwa-assets-generator --preset minimal src/assets/logo/na_logo.svg"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-error-boundary": "^4.0.10",
+		"react-hook-form": "^7.44.1",
+		"react-router-dom": "^6.11.2",
+		"vite-plugin-checker": "^0.6.0"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.28",
+		"@types/react-dom": "^18.0.11",
+		"@typescript-eslint/eslint-plugin": "^5.57.1",
+		"@typescript-eslint/parser": "^5.57.1",
+		"@vite-pwa/assets-generator": "^0.0.3",
+		"@vitejs/plugin-react": "^4.0.0",
+		"eslint": "^8.38.0",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"eslint-plugin-react-refresh": "^0.3.4",
+		"sass": "^1.62.1",
+		"typescript": "^5.0.2",
+		"vite": "^4.3.2",
+		"vite-plugin-pwa": "^0.16.4",
+		"workbox-window": "^7.0.0"
+	}
+}

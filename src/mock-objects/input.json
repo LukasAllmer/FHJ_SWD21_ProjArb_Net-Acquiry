@@ -1,0 +1,184 @@
+{
+	"requestId": 12345,
+	"personalData": {
+		"firstName": "Max",
+		"lastName": "Mustermann",
+		"company": "Muster GmbH"
+	},
+	"requesterData": {
+		"firstName": "Mini",
+		"lastName": "Musterfrau",
+		"company": "Anfrage GmbH",
+		"websiteLink": "https://fh-joanneum.at",
+		"pictureLink": "woman.svg"
+	},
+	"requestContent": [
+		{
+			"fieldId": 0,
+			"fieldDescription": "Birthname",
+			"fieldType": "text",
+			"fieldParams": {
+				"required": true,
+				"maxLength": 4,
+				"value": "test"
+			}
+		},
+		{
+			"fieldId": 1,
+			"fieldDescription": "3 Favorite Numbers",
+			"fieldSubItems": [
+				{
+					"fieldId": 0,
+					"fieldDescription": "Number",
+					"fieldType": "number"
+				},
+				{
+					"fieldId": 1,
+					"fieldDescription": "Number",
+					"fieldType": "number",
+					"fieldSubItems": [
+						{
+							"fieldId": 0,
+							"fieldDescription": "Another number",
+							"fieldType": "number",
+							"fieldSubItems": [
+								{
+									"fieldId": 0,
+									"fieldDescription": "Even more number",
+									"fieldType": "number",
+									"fieldSubItems": [
+										{
+											"fieldId": 0,
+											"fieldDescription": "Another number",
+											"fieldType": "number",
+											"fieldSubItems": [
+												{
+													"fieldId": 0,
+													"fieldDescription": "Even more number",
+													"fieldType": "number"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldId": 2,
+					"fieldDescription": "Number",
+					"fieldType": "number"
+				}
+			]
+		},
+		{
+			"fieldId": 2,
+			"fieldDescription": "Favorite Country",
+			"fieldType": "text",
+			"fieldSubItems": [
+				{
+					"fieldId": 0,
+					"fieldDescription": "Favorite City",
+					"fieldType": "text",
+					"fieldSubItems": [
+						{
+							"fieldId": 0,
+							"fieldType": "text",
+							"fieldDescription": "Favorite Place"
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldId": 3,
+			"fieldDescription": "Favorite word",
+			"fieldType": "radio",
+			"fieldValues": ["Mouse", "Giraffe", "Molotov"]
+		},
+		{
+			"fieldId": 4,
+			"fieldDescription": "Which food do you like?",
+			"fieldType": "checkbox",
+			"fieldValues": ["Mouse", "Giraffe", "Molotov"],
+			"fieldSubItems": [
+				{
+					"fieldId": 0,
+					"fieldDescription": "What's your favorite?",
+					"fieldType": "text"
+				}
+			]
+		},
+		{
+			"fieldId": 5,
+			"fieldDescription": "Favorite car",
+			"fieldType": "select",
+			"fieldValues": ["Toyota", "Mercedes", "BMW"]
+		},
+		{
+			"fieldId": 6,
+			"fieldDescription": "Numbers on a range",
+			"fieldType": "range",
+			"fieldParams": {
+				"min": 5,
+				"max": 10
+			}
+		},
+		{
+			"fieldId": 7,
+			"fieldDescription": "Some date",
+			"fieldType": "date"
+		},
+		{
+			"fieldId": 8,
+			"fieldDescription": "Some datetime-local",
+			"fieldType": "datetime-local"
+		},
+		{
+			"fieldId": 9,
+			"fieldDescription": "Some email",
+			"fieldType": "email"
+		},
+		{
+			"fieldId": 10,
+			"fieldDescription": "Some file",
+			"fieldType": "file"
+		},
+		{
+			"fieldId": 11,
+			"fieldDescription": "Some month",
+			"fieldType": "month"
+		},
+		{
+			"fieldId": 12,
+			"fieldDescription": "Some password",
+			"fieldType": "password"
+		},
+		{
+			"fieldId": 13,
+			"fieldDescription": "Some tel",
+			"fieldType": "tel"
+		},
+		{
+			"fieldId": 14,
+			"fieldDescription": "Some time",
+			"fieldType": "time"
+		},
+		{
+			"fieldId": 15,
+			"fieldDescription": "Some url",
+			"fieldType": "url"
+		},
+		{
+			"fieldId": 16,
+			"fieldDescription": "Some week",
+			"fieldType": "week"
+		},
+		{
+			"fieldId": 17,
+			"fieldDescription": "Some color",
+			"fieldType": "color"
+		}
+	]
+}
